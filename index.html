@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Recipe Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+        <p style="margin-top:0.5rem; font-size:1rem;">Discover and try something new today!</p>
+    </header>
+    <section class="filter-bar">
+        <label for="cuisine-filter">Filter by Cuisine:</label>
+        <select id="cuisine-filter">
+            <option value="all">All</option>
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="indian">Indian</option>
+            <option value="american">American</option>
+        </select>
+    </section>
+    <main>
+        <div class="cards-container" id="cards-container">
+            <!-- Recipe Cards will be generated here by JavaScript -->
+        </div>
+    </main>
+</body>
+<script src="file.js"></script>
+
+</html>
